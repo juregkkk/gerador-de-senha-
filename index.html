@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="senha.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Futuristic Password Generator</h1>
+        <div class="range-container">
+            <label for="password-length">Password Length:</label>
+            <input type="range" id="password-length" min="6" max="20" value="12">
+            <div class="range-value" id="length-value">12</div>
+        </div>
+        <div class="password-display" id="password-display">Click "Generate" to create a password</div>
+        <div class="tooltip" id="tooltip">Password copied!</div>
+        <button class="btn-generate" id="generate-btn">Generate Password</button>
+    </div>
+<script src="senha.js"></script>
+</body>
+</html>
